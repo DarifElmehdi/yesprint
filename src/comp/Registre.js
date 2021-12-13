@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Col, Container, Form, FormGroup, Row , Image , InputGroup} from "react-bootstrap";
+import {Button, Col, Container, Form, FormGroup, Row , Image } from "react-bootstrap";
 
 const Registre = () => {
     return (
