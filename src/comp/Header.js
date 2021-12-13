@@ -1,16 +1,16 @@
 import React from 'react';
 import {Navbar, Container, Nav , Form , Button , FormControl ,Card} from 'react-bootstrap';
-import { EnvelopeFill, TelephoneFill } from 'react-bootstrap-icons';
+import { EmailIcon , WhatsappIcon } from "react-share";
 import { NavLink } from 'react-router-dom';
 
 export default function Header() {
 return (
   <Container>
   <Card style={{ backgroundColor:'#eaedf2'  , border : 'none'}}>
-    <Card.Img src="assets/logo.jpg" alt="Card image" style={{ width : '150px'}}/>
+    <Card.Img src="assets/logo.jpg" alt="Card image" style={{  margin : '10px', width : '120px'}}/>
     <Card.ImgOverlay style={{textAlign : 'end' ,}}>
-      <Card.Title style={{ marginRight : '75px' ,color : '#0093d6'}}><TelephoneFill/> +212-658181469</Card.Title>
-      <Card.Title style={{ marginRight : '0px' ,color : '#0093d6' }}><EnvelopeFill/> yesprint.ma@gmail.com</Card.Title>
+      <Card.Title style={{color : '#da1d6f'}}>+212 661-316238<WhatsappIcon size={32} round={true} style={{marginLeft : '10px'}}/></Card.Title>
+      <Card.Title style={{color : '#da1d6f' }}>yesprint.ma@gmail.com<EmailIcon size={32} round={true} style={{marginLeft : '10px'}}/></Card.Title>
     </Card.ImgOverlay>
   </Card>
   <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'#eaedf2'}} sticky="top">

@@ -6,11 +6,12 @@ export default function Footer() {
     <div class="container p-4">
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-4" >
-          <h5 class="mb-3" style={{letterSpacing: '2px',color :'#262626'}} >YESPRINT</h5>
+          <h5 class="mb-3" style={{letterSpacing: '2px',color :'#262626'}} >Imprimerie YES PRINT</h5>
           <hr style={{borderRadius : '5px' , border: '2px solid'}}></hr>
           <p style={{color :'#262626'}}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+          Services disponibles: Achats en magasin · Retrait en magasin · Livraison<br/>
+          Adresse : Massira 3 N° 707 Bloc A, 40140<br/>
+          Téléphone : +212 661-316238
           </p>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
