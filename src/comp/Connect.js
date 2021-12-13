@@ -1,6 +1,6 @@
 import React from 'react';
-import {Button, Col, Container, Form, FormGroup, Row , Image} from "react-bootstrap";
-
+import {Button, Col, Container, Form, FormGroup, Row , Image , Nav} from "react-bootstrap";
+import {NavLink} from 'react-router-dom';
 const Connect = () => {
     return (
             <Container>
@@ -34,8 +34,8 @@ const Connect = () => {
                             Se connecter
                         </Button>
                         </FormGroup>
-                        <a href="/" style={{color :'#000' , textDecoration : 'none'}} >Mot de passe oublié ?</a><br/>
-                        <a href="inscrit" style={{color :'#262626' , textDecoration : 'none'}} >Vous n'avez pas de compte ? S'inscrire</a>
+                        <Nav.Link as={NavLink} to="/">{"Mot de passe oublié ?"}</Nav.Link>  
+                        <Nav.Link as={NavLink} to="/inscrit">{"Vous n'avez pas de compte ? S'inscrire"}</Nav.Link>  
                     </Form>
                     </Col>
                 </Row>

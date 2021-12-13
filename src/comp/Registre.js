@@ -1,6 +1,6 @@
 import React from 'react';
-import {Button, Col, Container, Form, FormGroup, Row , Image } from "react-bootstrap";
-
+import {Button, Col, Container, Form, FormGroup, Row , Image , Nav } from "react-bootstrap";
+import {NavLink} from 'react-router-dom';
 const Registre = () => {
     return (
             <Container>
@@ -43,6 +43,7 @@ const Registre = () => {
                             S'inscrire
                         </Button>
                         </FormGroup>
+                        <Nav.Link as={NavLink} to="/connect">{"Vous avez déjà un compte? Se connecter"}</Nav.Link>  
                     </Form>
                     </Col>
                     <Col sm={6} style={{padding : '20px'}}>
