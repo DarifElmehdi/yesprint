@@ -5,8 +5,9 @@ export default function Product() {
     return (
     <Container>
     <br/>
+    <h3>Produits</h3>
     <CardGroup >
-    <Card style={{margin : '10px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
+    <Card style={{ margin : '0px 10px 10px 0px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
         <Card.Img variant="top" src="assets/card.jpg" style={{borderRadius : '20px' , border: '1px solid #da1d6f'}} />
         <Card.Body>
         <Card.Title>Carte de visite</Card.Title>
@@ -16,7 +17,7 @@ export default function Product() {
         <Button variant="primary" style={{float : 'right'}} >Comander</Button>
         </Card.Body>
     </Card>
-    <Card style={{margin : '10px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
+    <Card style={{ margin : '0px 10px 10px 0px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
         <Card.Img variant="top" src="assets/cup.jpg"style={{borderRadius : '20px' , border: '1px solid #da1d6f'}} />
         <Card.Body>
         <Card.Title>Mug personnalisé</Card.Title>
@@ -28,7 +29,7 @@ export default function Product() {
     </Card>
     </CardGroup>
     <CardGroup>
-    <Card style={{margin : '10px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
+    <Card style={{ margin : '0px 10px 10px 0px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
         <Card.Img variant="top" src="assets/tshirt.jpg"style={{borderRadius : '20px' , border: '1px solid #da1d6f'}}/>
         <Card.Body>
         <Card.Title>La Sérigraphie</Card.Title>
@@ -39,7 +40,7 @@ export default function Product() {
         </Card.Body>
         
     </Card>
-    <Card style={{margin : '10px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
+    <Card style={{ margin : '0px 10px 10px 0px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
         <Card.Img variant="top" src="assets/brochure.jpg"style={{borderRadius : '20px' , border: '1px solid #da1d6f'}}/>
         <Card.Body>
         <Card.Title>Brochure</Card.Title>
@@ -52,7 +53,7 @@ export default function Product() {
     </Card>
     </CardGroup>
     <CardGroup>
-    <Card style={{margin : '10px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
+    <Card style={{margin : '0px 10px 10px 0px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
         <Card.Img variant="top" src="assets/flyer.jpg"style={{borderRadius : '20px' , border: '1px solid #da1d6f'}}/>
         <Card.Body>
         <Card.Title>Tract</Card.Title>
@@ -63,7 +64,7 @@ export default function Product() {
         </Card.Body>
         
     </Card>
-    <Card style={{margin : '10px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
+    <Card style={{ margin : '0px 10px 10px 0px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
         <Card.Img variant="top" src="assets/poster.jpg" style={{borderRadius : '20px' , border: '1px solid #da1d6f'}} />
         <Card.Body>
         <Card.Title>Poster</Card.Title>

@@ -5,6 +5,7 @@ export default function Home() {
     return (
     <Container>
     <br/>
+    <h3>Gallerie</h3>
     <div class="row">
     <div class="col-lg-4 mb-4 mb-lg-0">
         <img
