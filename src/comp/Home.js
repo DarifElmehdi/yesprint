@@ -90,10 +90,10 @@ export default function Home() {
     <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
     <Row>
         <Col sm={8}>
-        <iframe src="https://maps.google.com/maps?q=Massira%203%20N%C2%B0%20707%20Bloc%20A,%2040140&t=&z=13&ie=UTF8&iwloc=&output=embed" style={{width :'100%', height : '500px',  frameborder :"2px"}} allowfullscreen></iframe>
+        <iframe title='geolocalisation' src="https://maps.google.com/maps?q=Massira%203%20N%C2%B0%20707%20Bloc%20A,%2040140&t=&z=13&ie=UTF8&iwloc=&output=embed" style={{width :'100%', height : '500px',  frameborder :"2px"}} allowfullscreen></iframe>
         </Col>
         <Col sm={4}>
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fyesprint.ma%2F%3F_rdc%3D1%26_rdr&tabs=timeline&width=420&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style={{width :'100%', height : '500px',  frameborder :"5px"}} allowfullscreen></iframe>
+        <iframe title='facebook' src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fyesprint.ma%2F%3F_rdc%3D1%26_rdr&tabs=timeline&width=420&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style={{width :'100%', height : '500px',  frameborder :"2px"}} allowfullscreen></iframe>
         </Col>
     </Row>
     <Image src="assets/banner-b.jpg" fluid />

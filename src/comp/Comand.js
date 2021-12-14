@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Col, Container, Form, FormGroup, Row , Image , Nav} from "react-bootstrap";
+import {Button, Col, Container, Form, FormGroup, Row , Image } from "react-bootstrap";
 const Comand = () => {
     return (
             <Container>
