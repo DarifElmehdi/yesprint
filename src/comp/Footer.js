@@ -1,7 +1,9 @@
 import React from "react"
+import { Container } from "react-bootstrap";
 
 export default function Footer() {
     return (
+    <Container>
     <footer style={{backgroundColor:'#D9D9D9'}}>
     <div class="container p-4">
       <div class="row">
@@ -52,5 +54,6 @@ export default function Footer() {
       <a class="text-dark" href="/">YESPRINT </a>
     </div>
   </footer>
+  </Container>
   );
 }

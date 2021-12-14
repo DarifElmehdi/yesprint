@@ -49,6 +49,8 @@ export default function Home() {
     </div>
     </div>
     <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
+    <br/>
+    <h3>Personnel</h3>
     <CardGroup>
     <Card style={{margin : '10px' , border: '1px solid #fec02f' , borderRadius :  '20px 20px 0 0 '}}>
         <Card.Img variant="top" src="assets/jamal.jpg" style={{borderRadius : '50%' , border: '2px solid #0093d6' , width :'60%' , margin : '10px auto 10px auto'}}/>
