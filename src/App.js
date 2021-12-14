@@ -9,6 +9,7 @@ import Header from './comp/Header';
 import Home from './comp/Home';
 import Product from './comp/Product';
 import Registre from './comp/Registre';
+import Service from './comp/Service';
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
           <Header/><Product/><Footer/>
         </Route>
         <Route path="/services" exact>
-          <Header/>SERVICES
+          <Header/><Service/><Footer/>
         </Route>
         <Route path="/contact" exact>
           <Header/><Contact/><Footer/>

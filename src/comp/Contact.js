@@ -1,18 +1,18 @@
 import React from 'react';
 import {Button, Col, Container, Form, FormGroup, Row , Image , Nav} from "react-bootstrap";
-import {NavLink} from 'react-router-dom';
 const Contact = () => {
     return (
             <Container>
                 <hr style={{borderRadius : '5px' , border: '2px solid'}}></hr>
                 <Row>
                     <Col sm={6} style={{padding : '100px'}}>
-                    <Image src="assets/contact-us.jpg" fluid/>
+                    <Image src="assets/contact-us.jpg" fluid style={{marginTop : '30%'}}/>
                     </Col>
                     <Col sm={6} style={{padding : '50px'}}>
                     <div style={{justifyContent : 'center' , display : 'flex' , padding : '20px'}}>
                     <Image src="assets/contact.jpg" style={{ borderRadius : '50%',height : '80px' , width : '80px'}}/>
                     </div>
+                    <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
                     <h2 className="text-primary text-center">Nous Contacter</h2>
                     <Form >
                         <Row>
@@ -33,6 +33,10 @@ const Contact = () => {
                         <Form.Group controlId="formBasicPassword" style={{margin : '20px auto 0px auto'}}>
                             <Form.Label>Votre message</Form.Label>
                             <Form.Control as="textarea" placeholder="Message" />
+                        </Form.Group>
+                        <Form.Group controlId="formFile" style={{margin : '20px auto 0px auto'}}>
+                            <Form.Label>Joindre une capture</Form.Label>
+                            <Form.Control type="file"/>
                         </Form.Group>
                         <Form.Check style={{margin : '20px auto 0px auto'}}
                             type="switch"

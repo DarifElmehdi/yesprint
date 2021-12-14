@@ -1,11 +1,12 @@
 import React from "react"
-import { CardGroup , Card, Container , Button} from "react-bootstrap";
+import { CardGroup ,Image , Card, Container , Button} from "react-bootstrap";
 
 export default function Product() {
     return (
     <Container>
-    <br/>
-    <h3>Produits</h3>
+    <Image src="assets/banner-t.jpg" fluid />
+    <h3 style={{textAlign : 'center'}}>Produits</h3>
+    <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
     <CardGroup >
     <Card style={{ margin : '0px 10px 10px 0px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
         <Card.Img variant="top" src="assets/card.jpg" style={{borderRadius : '20px' , border: '1px solid #da1d6f'}} />
@@ -27,8 +28,6 @@ export default function Product() {
         <Button variant="primary" style={{float : 'right'}} >Comander</Button>
         </Card.Body>
     </Card>
-    </CardGroup>
-    <CardGroup>
     <Card style={{ margin : '0px 10px 10px 0px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
         <Card.Img variant="top" src="assets/tshirt.jpg"style={{borderRadius : '20px' , border: '1px solid #da1d6f'}}/>
         <Card.Body>
@@ -40,6 +39,9 @@ export default function Product() {
         </Card.Body>
         
     </Card>
+    </CardGroup>
+
+    <CardGroup>
     <Card style={{ margin : '0px 10px 10px 0px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
         <Card.Img variant="top" src="assets/brochure.jpg"style={{borderRadius : '20px' , border: '1px solid #da1d6f'}}/>
         <Card.Body>
@@ -51,8 +53,6 @@ export default function Product() {
         </Card.Body>
         
     </Card>
-    </CardGroup>
-    <CardGroup>
     <Card style={{margin : '0px 10px 10px 0px' , padding : '10px' , border: '1px solid #0093d6' , borderRadius :  '20px '}}>
         <Card.Img variant="top" src="assets/flyer.jpg"style={{borderRadius : '20px' , border: '1px solid #da1d6f'}}/>
         <Card.Body>
@@ -76,7 +76,7 @@ export default function Product() {
         
     </Card>
     </CardGroup>
-    <hr style={{borderRadius : '5px' , border: '2px solid ', width :'40%' , margin : '10px auto 10px auto'}}></hr>
+    <Image src="assets/banner-b.jpg" fluid />
     </Container>
     );
 }

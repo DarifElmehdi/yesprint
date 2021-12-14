@@ -4,12 +4,12 @@ import {NavLink} from 'react-router-dom';
 const Registre = () => {
     return (
             <Container>
-                <hr style={{borderRadius : '5px' , border: '2px solid'}}></hr>
                 <Row>
                     <Col sm={6} style={{padding : '50px'}}>
                     <div style={{justifyContent : 'center' , display : 'flex' , padding : '20px'}}>
                     <Image src="assets/connect.png" style={{height : '80px' , width : '80px'}}/>
                     </div>
+                    <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
                     <h2 className="text-primary text-center">Inscription</h2>
                     <Form >
                         <Row>
@@ -50,7 +50,6 @@ const Registre = () => {
                     <Image src="assets/signup.png" fluid style={{marginTop : '30%'}}/>
                     </Col>
                 </Row>
-                <hr style={{borderRadius : '5px' , border: '2px solid'}}></hr>
             </Container>
     );
 };

@@ -1,11 +1,12 @@
 import React from "react"
-import {Container , Card , CardGroup , Row , Col} from "react-bootstrap";
+import {Container ,Image , Card , CardGroup , Row , Col} from "react-bootstrap";
 import { FacebookIcon , TwitterIcon , EmailIcon , WhatsappIcon } from "react-share";
 export default function Home() {
     return (
     <Container>
-    <br/>
-    <h3>Gallerie</h3>
+    <Image src="assets/banner-t.jpg" fluid />
+    <h3 style={{textAlign : 'center'}}>Gallerie</h3>
+    <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
     <div class="row">
     <div class="col-lg-4 mb-4 mb-lg-0">
         <img
@@ -48,9 +49,9 @@ export default function Home() {
         />
     </div>
     </div>
-    <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
     <br/>
-    <h3>Personnel</h3>
+    <h3 style={{textAlign : 'center'}}>Personnel</h3>
+    <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
     <CardGroup>
     <Card style={{margin : '10px' , border: '1px solid #fec02f' , borderRadius :  '20px 20px 0 0 '}}>
         <Card.Img variant="top" src="assets/jamal.jpg" style={{borderRadius : '50%' , border: '2px solid #0093d6' , width :'60%' , margin : '10px auto 10px auto'}}/>
@@ -77,7 +78,9 @@ export default function Home() {
         </Card.Footer>
     </Card>
     </CardGroup>
-    <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '20px auto 20px auto'}}></hr>
+    <br/>
+    <h3 style={{textAlign : 'center'}}>Localisation et RS</h3>
+    <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
     <Row>
         <Col sm={8}>
         <iframe src="https://maps.google.com/maps?q=Massira%203%20N%C2%B0%20707%20Bloc%20A,%2040140&t=&z=13&ie=UTF8&iwloc=&output=embed" style={{width :'100%', height : '500px',  frameborder :"2px"}} allowfullscreen></iframe>
@@ -86,7 +89,7 @@ export default function Home() {
         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fyesprint.ma%2F%3F_rdc%3D1%26_rdr&tabs=timeline&width=420&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style={{width :'100%', height : '500px',  frameborder :"5px"}} allowfullscreen></iframe>
         </Col>
     </Row>
-    
+    <Image src="assets/banner-b.jpg" fluid />
     </Container>
     );
 }

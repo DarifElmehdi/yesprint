@@ -13,6 +13,7 @@ const Connect = () => {
                     <div style={{justifyContent : 'center' , display : 'flex' , padding : '20px'}}>
                     <Image src="assets/connect.png" style={{height : '80px' , width : '80px'}}/>
                     </div>
+                    <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
                     <h2 className="text-primary text-center"> Authentification</h2>
                     <Form >
                         <Form.Group controlId="formBasicEmail" style={{margin : '20px auto 0px auto'}} >
