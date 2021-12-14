@@ -85,7 +85,7 @@ const Service = () => {
                 </Card.Body>
             </Card>
             </CardGroup>
-            <hr style={{borderRadius : '5px' , border: '2px solid ', width :'40%' , margin : '10px auto 10px auto'}}></hr>
+            <br/>
             <Image src="assets/banner-b.jpg" fluid />
         </Container>
     );
