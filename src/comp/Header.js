@@ -15,6 +15,7 @@ return (
     </Card.ImgOverlay>
   </Card>
   <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'#eaedf2'}} sticky="top">
+  <Container>
     <Navbar.Brand href="/">
     <Image src="assets/home.png" style={{width : '30px'}}/>
     </Navbar.Brand>
@@ -39,6 +40,7 @@ return (
         <Button variant="outline-primary">Rechercher</Button>
       </Form>
     </Navbar.Collapse>
+    </Container>
   </Navbar>
   </Container>
   );
