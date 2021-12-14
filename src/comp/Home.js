@@ -4,14 +4,7 @@ import { FacebookIcon , TwitterIcon , EmailIcon , WhatsappIcon } from "react-sha
 export default function Home() {
     return (
     <Container>
-    <Card style={{ backgroundColor:''  , border : 'none'}} fluid>
-        <Card.Img src="assets/ban.jpg" alt="Card image"/>
-        <Card.ImgOverlay style={{textAlign : 'left'}}>
-        <Card.Title style={{color : '#0093d6' , fontSize : '5vw'}}>YES PRINT</Card.Title>
-        <Card.Title style={{color : '#040404' , fontSize : '2vw'}}>Votre imprimeur en ligne au meilleur prix ! </Card.Title>
-        <Card.Title style={{color : '#040404' , fontSize : '2vw'}}>Livraison incluse pour tous nos tarifs !</Card.Title>
-        </Card.ImgOverlay>
-    </Card>
+    <Image src="assets/banner-t.jpg" fluid />
     <h3 style={{textAlign : 'center'}}>Gallerie</h3>
     <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
     <div class="row">

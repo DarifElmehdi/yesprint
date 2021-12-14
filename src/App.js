@@ -2,7 +2,6 @@ import React from 'react';
 
 
 import {  BrowserRouter as Router,  Route,  Redirect,  Switch} from 'react-router-dom';
-import Comand from './comp/Comand';
 import Connect from './comp/Connect';
 import Contact from './comp/Contact';
 import Footer from './comp/Footer';
@@ -11,7 +10,6 @@ import Home from './comp/Home';
 import Product from './comp/Product';
 import Registre from './comp/Registre';
 import Service from './comp/Service';
-import './index.css'
 
 const App = () => {
   return (
@@ -35,9 +33,6 @@ const App = () => {
         </Route>
         <Route path="/inscrit" exact>
           <Header/><Registre/><Footer/>
-        </Route>
-        <Route path="/comand" exact>
-          <Header/><Comand/><Footer/>
         </Route>
         <Redirect to="/" />
       </Switch>
