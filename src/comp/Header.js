@@ -22,9 +22,9 @@ return (
         className="me-auto my-2 my-lg-0"
       >
         <Nav.Link as={NavLink} to="/">Accueil</Nav.Link>
-        <Nav.Link as={NavLink} to="/products">Produit</Nav.Link>
-        <Nav.Link as={NavLink} to="/services">Service</Nav.Link>
-        <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
+        <Nav.Link as={NavLink} to="/products">Produits</Nav.Link>
+        <Nav.Link as={NavLink} to="/services">Services</Nav.Link>
+        <Nav.Link as={NavLink} to="/contact">Nous contacter</Nav.Link>
         <Nav.Link as={NavLink} to="/connect">Se Connecter</Nav.Link>
       </Nav>
       <Form className="d-flex">
