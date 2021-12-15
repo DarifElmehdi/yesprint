@@ -1,10 +1,10 @@
 import React from 'react';
 import {Button, Col, Container, Card, Row , Image , Form , FormGroup } from "react-bootstrap";
-const Comand = () => {
+const Comands = () => {
     return (
         <Container>
         <Image src="assets/banner-t.jpg" fluid />
-        <h3 style={{textAlign : 'center'}}>Faire une commande</h3>
+        <h3 style={{textAlign : 'center'}}>Suivie des commande</h3>
         <hr style={{borderRadius : '5px' , border: '2px solid' , width :'40%' , margin : '10px auto 10px auto'}}></hr>
         <Row>
             <Col md={{span : 10 , offset : 1}}>
@@ -108,4 +108,4 @@ const Comand = () => {
     );
 };
 
-export default Comand;
+export default Comands;

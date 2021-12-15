@@ -2,7 +2,9 @@ import React from 'react';
 
 
 import {  BrowserRouter as Router,  Route,  Redirect,  Switch} from 'react-router-dom';
+import Check from './comp/Check';
 import Comand from './comp/Comand';
+import Comands from './comp/Comands';
 import Connect from './comp/Connect';
 import Contact from './comp/Contact';
 import Footer from './comp/Footer';
@@ -38,6 +40,12 @@ const App = () => {
         </Route>
         <Route path="/comand" exact>
           <Header/><Comand/><Footer/>
+        </Route>
+        <Route path="/check" exact>
+          <Header/><Check/><Footer/>
+        </Route>
+        <Route path="/comands" exact>
+          <Header/><Comands/><Footer/>
         </Route>
         <Redirect to="/" />
       </Switch>

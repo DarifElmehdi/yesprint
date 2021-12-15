@@ -28,6 +28,7 @@ return (
         <Nav.Link as={NavLink} to="/products">Produits</Nav.Link>
         <Nav.Link as={NavLink} to="/services">Services</Nav.Link>
         <Nav.Link as={NavLink} to="/contact">Nous contacter</Nav.Link>
+        <Nav.Link as={NavLink} to="/check">Suivi de commande</Nav.Link>
         <Nav.Link as={NavLink} to="/connect">Se Connecter</Nav.Link>
       </Nav>
       <Form className="d-flex">

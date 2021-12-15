@@ -31,7 +31,7 @@ const Connect = () => {
                             label="Mémoriser les informations"
                         />
                         <FormGroup>
-                        <Button variant="primary btn-block"  style={{margin : '20px auto 20px auto' , justifyContent : 'center' , display : 'flex'}} type="submit">
+                        <Button as={NavLink} to="/comands" variant="primary btn-block"  style={{margin : '20px auto 20px auto' , justifyContent : 'center' , display : 'flex'}} type="submit">
                             Se connecter
                         </Button>
                         </FormGroup>
